@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <formatVersion>7</formatVersion>
+
+    <view name="system">
+        <carousel name="systemcarousel">
+            <type>horizontal</type>
+            <pos>0.10 0.700</pos>
+            <size>0.8 1</size>
+            <logoScale>1</logoScale>
+            <logoSize>0.307291667 0.236111</logoSize>
+            <logoAlignment>center</logoAlignment>
+            <logoPos>0.248 0</logoPos>
+            <color>00000000</color>
+            <maxLogoCount>3</maxLogoCount>
+            <zIndex>45</zIndex>
+            <scrollSound>./_assets/sounds/scroll1A.wav</scrollSound>
+            <defaultTransition>instant</defaultTransition>
+        </carousel>
+
+        <text name="logoText">
+            <color>FFFFFFFF</color>
+            <glowColor>00000050</glowColor>
+            <glowSize>3</glowSize>
+            <glowOffset>3</glowOffset>
+            <lineSpacing>1.0</lineSpacing>
+            <fontPath>./_inc/fonts/LEMONMILK-Bold.otf</fontPath>
+            <fontSize>0.072</fontSize>
+        </text>
+
+        <image name="logo">
+            <path>./../_assets/logos/$system.png</path>
+            <linearSmooth>true</linearSmooth>
+
+            <storyboard event="activate" repeatAt="1">
+                <animation property="opacity" to="1" begin="0" duration="0" mode="linear"/>
+                <animation property="scale" from="0.70" to="1.10" begin="0" duration="0" mode="linear"/>
+            </storyboard>
+
+            <storyboard event="scroll">
+                <animation property="opacity" from="0" to="0.4" duration="0" mode="Linear"/>
+                <animation property="scale" from="1.10" to="0.70" begin="0" duration="0" mode="easeOut"/>
+            </storyboard>
+        </image>
+
+        <image name="art" extra="true">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <linearSmooth>true</linearSmooth>
+            <path>./../_assets/arts/$system.jpg</path>
+            <path>./../_assets/arts/$system.png</path>
+        </image>
+
+        <!-- Imagem de Overlay -->
+        <image name="background" extra="true">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./../_assets/overlay_down.png</path>
+            <zIndex>41</zIndex>
+        </image>
+
+        <!-- Número de Games -->
+        <text name="systemInfo">
+            <alignment>right</alignment>
+            <pos>-0.025 0.932</pos>
+            <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
+            <fontSize>0.020</fontSize>
+            <color>ffffff</color>
+            <zIndex>95</zIndex>
+        </text>
+
+        <!-- Ajuda - botões para usar no Sistema -->
+        <helpsystem name="help">
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.960</pos>
+            <fontPath>./../_assets/Roboto-Medium.ttf</fontPath>
+            <fontSize>0.020</fontSize>
+            <textColor>FFFFFF</textColor>
+        </helpsystem>
+
+        <!-- Clock -->
+        <datetime name="clock">
+            <alignment>right</alignment>
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.060</pos>
+            <size>0.07 0.025</size>
+            <fontSize>0.025</fontSize>
+            <color>FFFFFF</color>
+            <fontPath>./_assets/Roboto-Medium.ttf</fontPath>
+        </datetime>
+
+        <!-- Informações do sistema - Jogando fora porq n pode apagar -->
+        <text name="info1, info2" extra="true">
+            <pos>11 11</pos>
+            <fontSize>0</fontSize>
+            <zIndex>0</zIndex>
+        </text>
+        <text name="info1" extra="true">
+            <fontPath>./../_inc/fonts/texgyre.otf</fontPath>
+            <color>8f8f8f</color>
+            <alignment>left</alignment>
+            <fontSize>0.022</fontSize>
+            <lineSpacing>1</lineSpacing>
+            <size>0.38 0</size>
+            <pos>11 11</pos>
+            <glowColor>00000016</glowColor>
+            <glowSize>1</glowSize>
+            <zIndex>42</zIndex>
+            <storyboard>
+                <animation property="offsetX" from="-2" to="0" begin="" duration="900" mode="Linear" autoReverse="false"/>
+            </storyboard>
+        </text>
+        <text name="info3, info4, info5" extra="true">
+            <pos>11 11</pos>
+            <fontSize>0</fontSize>
+            <zIndex>0</zIndex>
+        </text>
+        <!-- não alterar -->
+    </view>
+
+    <view name="screen">
+        <controllerActivity name="controllerActivity">
+            <pos>11 11</pos>
+            <size>0.065 0.016</size>
+            <itemSpacing>0.003</itemSpacing>
+            <imagePath>./../_inc/gamepad.svg</imagePath>
+            <color>FFFFFF80</color>
+            <activityColor>A0A0FFC0</activityColor>
+            <hotkeyColor>FFA0A0C0</hotkeyColor>
+        </controllerActivity>
+    </view>
+
+</theme>

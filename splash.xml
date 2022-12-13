@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+	<view name="splash">
+
+        <splash name="splash">
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <size>1 1</size>
+            <minSize>1 1</minSize>
+            <backgroundColor>333333</backgroundColor>
+        </splash>
+		
+		<image name="background">
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <size>1 1</size>
+	    	<path>./_assets/arts/splash.png</path>
+			<zIndex>99</zIndex>
+		</image>
+
+        <!-- <image name="gameloading" extra="true">
+            <origin>0 0</origin>
+            <pos>0.5 0.5</pos>
+            <maxSize>0.1 0.1</maxSize>
+            <path>./_assets/loading.png</path>
+            <zIndex>16</zIndex>
+
+            <storyboard repeat="forever">
+                <animation property="rotation" to="360" begin="0" duration="800" />
+            </storyboard>
+        </image> -->
+		
+		<image name="progressbar, progressbar:active">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+			<visible>true</visible>
+            <zIndex>1</zIndex>
+		</image>
+
+		<image name="progressbar">
+			<color>11111100</color>
+		</image>
+
+		<image name="progressbar:active">
+			<color>9f005a15</color>
+		</image>
+
+		<text name="label">
+            <color>FFFFFFFF</color>
+            <glowColor>222222</glowColor>
+            <glowSize>2</glowSize>
+            <glowOffset>2</glowOffset>
+            <lineSpacing>1.0</lineSpacing>
+            <fontPath>./_inc/fonts/LEMONMILK-Medium.otf</fontPath>
+            <fontSize>0.042</fontSize>
+		</text>
+		
+	</view>	
+</theme>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <formatVersion>7</formatVersion>
+    <view name="splash">
+        <image name="background">
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <size>1 1</size>
+            <minSize>1 1</minSize>
+            <linearSmooth>true</linearSmooth>
+            <color>333333</color>
+            <gradientType>vertical</gradientType>
+            <zIndex>1</zIndex>
+        </image>
+
+        <!-- <image name="gameloading" extra="true">
+            <origin>0 0</origin>
+            <pos>0.5 0.5</pos>
+            <maxSize>0.1 0.1</maxSize>
+            <path>./_assets/loading.png</path>
+            <zIndex>16</zIndex>
+
+            <storyboard repeat="forever">
+                <animation property="rotation" to="360" begin="0" duration="800" />
+            </storyboard>
+        </image> -->
+
+        <image name="backgroundalt" extra="true">
+            <origin>0 0</origin>
+            <size>1 1</size>
+            <path>./_assets/arts/gamesplash.png</path>
+            <zIndex>5</zIndex>
+        </image>
+
+        <text name="loading" extra="true">
+            <origin>0 0.5</origin>
+            <pos>0.05 0.78</pos>
+            <alignment>left</alignment>
+            <color>FFFFFFFF</color>
+            <glowColor>00000050</glowColor>
+            <glowSize>2</glowSize>
+            <glowOffset>2</glowOffset>
+            <lineSpacing>1.0</lineSpacing>
+            <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
+            <fontSize>0.036</fontSize>
+            <text>LOADING...</text>
+            <text lang="pt">CARREGANDO...</text>
+            <text lang="fr">CHARGEMENT...</text>
+            <text lang="es">CARGANDO...</text>
+            <text lang="de">WIRD GELADEN...</text>
+            <zIndex>8</zIndex>
+        </text>
+
+        <text name="label">
+            <origin>0 0.5</origin>
+            <pos>0.05 0.90</pos>
+            <alignment>left</alignment>
+            <color>9f0043</color>
+            <glowColor>00000050</glowColor>
+            <glowSize>2</glowSize>
+            <glowOffset>2</glowOffset>
+            <lineSpacing>1.0</lineSpacing>
+            <fontPath>./_inc/fonts/LEMONMILK-Bold.otf</fontPath>
+            <fontSize>0.048</fontSize>
+        </text>
+
+        <splash name="splash">
+            <backgroundColor>333333</backgroundColor>
+        </splash>
+
+    </view>
+
+</theme>

@@ -1,0 +1,46 @@
+<!-- 
+    GAMECC theme created by 'Game Clandestino'
+    1.11, Setember 2022 For Batocera/Retrobat
+    -
+    https://gameclandestino.org
+    https://youtube.com/@gameclandestino
+    https://facebook.com/gameclandestino
+    https://discord.gg/cR3T4wkjyQ (Comunidade Clandestina)
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme defaultView="gamecarousel">
+    <formatVersion>7</formatVersion>
+
+    <include subset="iconset" name="standard icons" displayName="${icondef}">./_inc/iconsets/default.xml</include>
+    <include subset="iconset" name="SNES">./_inc/iconsets/snes.xml</include>
+    <include subset="iconset" name="SNES ALT">./_inc/iconsets/snesalt.xml</include>
+    <include subset="iconset" name="XBox">./_inc/iconsets/xbox.xml</include>
+    <include subset="iconset" name="Default PSX">./_inc/iconsets/psx.xml</include>
+    <include subset="iconset" name="ARCADE">./_inc/iconsets/arcade.xml</include>
+    <include subset="iconset" name="PSX ALT">./_inc/iconsets/psx1.xml</include>
+    <include subset="iconset" name="Xbox One">./_inc/iconsets/xboxone.xml</include>
+    <include subset="iconset" name="Switch">./_inc/iconsets/switch.xml</include>
+
+    <feature supported="carousel">
+        <view name="system">
+            <sound name="bgsound"></sound>
+        </view>
+    </feature>
+
+    <variables>
+        <pinkColor>9f0043</pinkColor>
+        <yellowColor>facc00</yellowColor>
+    </variables>
+
+    <include name="system">./_views/gamecc.xml</include>
+
+    <include name="menu">./_views/menu.xml</include>
+
+    <include name="gamecarousel">./_views/gamecc-gamelist.xml</include>
+
+    <!-- Specific layout for systems -->
+    <include>./${system.theme}/custom.xml</include>
+
+</theme>
