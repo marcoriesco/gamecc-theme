@@ -3,21 +3,41 @@
 
     <customView name="gamecarousel">
 
+        <!-- Fullcabinet hikaru -->
+        <image name="md_hikaru" extra="true">
+            <origin>0.5 0</origin>
+            <pos>0.5 0</pos>
+            <size>0 0</size>
+            <scale>1.5</scale>
+            <path>./../_assets/gamecc/hikaru.png</path>>
+            <zIndex>22</zIndex>
+        </image>
+
+        <!-- bg fullcabinet -->
+        <text name="md_hikaru_bg_video" extra="true">
+            <origin>0.5 0</origin>
+            <pos>0.4974 0.328</pos>
+            <size>0.195 0.36</size>
+            <backgroundColor>000000</backgroundColor>
+            <zIndex>21</zIndex>
+        </text>
+
         <!-- Fullcabinets -->
         <image name="md_boxart">
             <origin>0.5 0</origin>
             <pos>0.5 0</pos>
             <size>0 0</size>
             <scale>1.5</scale>
-            <zIndex>22</zIndex>
+            <!-- <zIndex>22</zIndex> -->
+            <zIndex>0</zIndex>
         </image>
-
         <!-- Marquee -->
         <image name="md_boxback">
             <origin>0.5 0</origin>
             <pos>0.5 0.08</pos>
             <size>0.235 0.16</size>
-            <zIndex>21</zIndex>
+            <!-- <zIndex>21</zIndex> -->
+            <zIndex>0</zIndex>
         </image>
 
         <!-- Video Preview -->
