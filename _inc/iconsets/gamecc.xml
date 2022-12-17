@@ -1,0 +1,21 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	<view name="menu, system">
+		<helpsystem name="help">
+			<iconColor>FFFFFFFF</iconColor>
+			<iconUpDown>./gamecc/updown.png</iconUpDown>
+			<iconLeftRight>./gamecc/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./gamecc/all.png</iconUpDownLeftRight>
+			<iconA>./gamecc/a.png</iconA>
+			<iconB>./gamecc/b.png</iconB>
+			<iconX>./gamecc/x.png</iconX>
+			<iconY>./gamecc/y.png</iconY>
+			<iconL>./gamecc/l.png</iconL>
+			<iconR>./gamecc/r.png</iconR>
+			<iconStart>./gamecc/start.png</iconStart>
+			<iconSelect>./gamecc/select.png</iconSelect>
+		</helpsystem>		
+	</view>
+	
+</theme>
