@@ -1,8 +1,13 @@
 <theme>
 	<formatVersion>4</formatVersion>
 	
-	<view name="menu, system">
+	<view name="menu, system, gamecarousel">
 		<helpsystem name="help">
+			<origin>0 0.5</origin>
+			<pos>0.015 0.960</pos>
+			<fontPath>./../_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
+			<fontSize>0.024</fontSize>
+			<textColor>FFFFFFFF</textColor>
 			<iconColor>FFFFFFFF</iconColor>
 			<iconUpDown>./gamecc/updown.png</iconUpDown>
 			<iconLeftRight>./gamecc/leftright.png</iconLeftRight>
@@ -15,7 +20,7 @@
 			<iconR>./gamecc/r.png</iconR>
 			<iconStart>./gamecc/start.png</iconStart>
 			<iconSelect>./gamecc/select.png</iconSelect>
-		</helpsystem>		
+		</helpsystem>	
 	</view>
 	
 </theme>

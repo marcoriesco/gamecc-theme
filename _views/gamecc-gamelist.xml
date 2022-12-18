@@ -80,10 +80,9 @@
         </image>
 
         <!-- Informações -->
-        <!-- Game name -->
+        <!-- Name -->
         <text name="md_name">
             <origin>1 1</origin>
-            <!-- <pos>0.645 0.68</pos> -->
             <pos>0.95 0.09</pos>
             <size>0.8 0</size>
             <fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
@@ -92,20 +91,8 @@
             <alignment>right</alignment>
             <zIndex>99</zIndex>
         </text>
-        
-        <!-- Rating Classificação do Game -->
-        <rating name="md_rating">
-            <origin>1 1</origin>
-            <pos>0.953 0.12</pos>
-            <size>0.05 0.03</size>
-            <color>FFFFFF</color>
-            <unfilledPath>./_inc/images/star_empty.svg</unfilledPath>
-            <unfilledColor>FFFFFF</unfilledColor>
-            <horizontalAlignment>right</horizontalAlignment>
-            <zIndex>99</zIndex>
-        </rating>
 
-        <!-- é Favorito? -->
+        <!-- Favorite -->
         <image name="md_favorite, no_favorite">
             <origin>1 1</origin>
             <pos>0.99 0.09</pos>
@@ -118,7 +105,18 @@
         <image name="no_favorite" extra="true">
             <path>./_assets/no-favorite.png</path>
             <zIndex>98</zIndex>
-        </image>
+        </image>        
+        <!-- Rating Classificação do Game -->
+        <rating name="md_rating">
+            <origin>1 1</origin>
+            <pos>0.953 0.12</pos>
+            <size>0.05 0.03</size>
+            <color>FFFFFF</color>
+            <unfilledPath>./_inc/images/star_empty.svg</unfilledPath>
+            <unfilledColor>FFFFFF</unfilledColor>
+            <horizontalAlignment>right</horizontalAlignment>
+            <zIndex>99</zIndex>
+        </rating>
 
         <!-- Lancamento -->
         <datetime name="md_releasedate">
@@ -129,7 +127,8 @@
             <fontSize>0.020</fontSize>
             <color>FFFFFF</color>
             <format>%Y</format>
-            <size>0.03</size>
+            <size>0.025 0.03</size>
+            <padding>0.005 0 0.005 0</padding>
             <alignment>center</alignment>
             <zIndex>99</zIndex>
         </datetime>
@@ -137,21 +136,33 @@
         <!-- Genero -->
         <text name="md_genre">
             <origin>1 1</origin>
-            <pos>0.91 0.17</pos>
+            <pos>0.92 0.17</pos>
             <backgroundColor>${pinkColor}</backgroundColor>
             <fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
             <fontSize>0.020</fontSize>
             <color>FFFFFF</color>
             <forceUppercase>true</forceUppercase>
-            <size>0.12 0</size>
-            <alignment>center</alignment>
+            <size>0.15 0.03</size>
+            <alignment>right</alignment>
+            <padding>0.005 0 0.005 0</padding>
             <zIndex>99</zIndex>
         </text>
 
+        <!-- Logo -->
+        <image name="md_marquee">
+            <origin>1 1</origin>
+            <pos>0.95 0.3</pos>
+            <minSize>0.1 0.1</minSize>
+            <maxSize>0.1 0.1</maxSize>
+            <horizontalAlignment>right</horizontalAlignment>
+            <verticalAlignment>bottom</verticalAlignment>
+            <zIndex>99</zIndex>
+        </image>
+
         <!-- Ajuda - botões para usar no Sistema -->
         <helpsystem name="help">
-            <fontSize>0.001</fontSize>
-            <pos>2 0.955</pos>
+            <origin>0 0.5</origin>
+            <pos>0.015 0.960</pos>
         </helpsystem>
 
     </view>
