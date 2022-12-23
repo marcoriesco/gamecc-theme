@@ -28,15 +28,14 @@
             <pos>0.5 0</pos>
             <size>0 0</size>
             <scale>1.5</scale>
-            <!-- <zIndex>22</zIndex> -->
             <zIndex>0</zIndex>
         </image>
+        
         <!-- Marquee -->
         <image name="md_boxback">
             <origin>0.5 0</origin>
             <pos>0.5 0.08</pos>
             <size>0.235 0.16</size>
-            <!-- <zIndex>21</zIndex> -->
             <zIndex>0</zIndex>
         </image>
 
