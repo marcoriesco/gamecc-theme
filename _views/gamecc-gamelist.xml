@@ -6,8 +6,8 @@
         <gamecarousel name="gamecarousel">
             <type>horizontal</type>
             <origin>0 1</origin>
-            <pos>0 1.06</pos>
-            <pos if="${screen.width} > 1920">0 1</pos>
+            <pos>0 1</pos>
+            <pos if="${screen.width} > 1920">0 0.95</pos>
             <size>1.6 0.5</size>
             <backgroundColor>333333</backgroundColor>
             <logoScale>2</logoScale>
