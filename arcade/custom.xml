@@ -9,7 +9,7 @@
             <pos>0.5 0</pos>
             <size>0 0</size>
             <scale>1.5</scale>
-            <path>./../_assets/gamecc/arcade.png</path>>
+            <path>./../_assets/gamecc/arcade.png</path>
             <zIndex>22</zIndex>
         </image>
 
@@ -28,7 +28,6 @@
             <pos>0.5 0</pos>
             <size>0 0</size>
             <scale>1.5</scale>
-            <!-- <zIndex>22</zIndex> -->
             <zIndex>0</zIndex>
         </image>
 
@@ -37,7 +36,6 @@
             <origin>0.5 0</origin>
             <pos>0.5 0.08</pos>
             <size>0.235 0.16</size>
-            <!-- <zIndex>21</zIndex> -->
             <zIndex>21</zIndex>
         </image>
         <!-- Marquee default -->

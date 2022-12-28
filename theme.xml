@@ -36,9 +36,7 @@
     </variables>
 
     <include name="system">./_views/gamecc.xml</include>
-
     <include name="menu">./_views/menu.xml</include>
-
     <include name="gamecarousel">./_views/gamecc-gamelist.xml</include>
 
     <!-- Specific layout for systems -->
