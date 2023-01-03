@@ -60,6 +60,14 @@
             <zIndex>4</zIndex>
         </video>
 
+        <!-- Logo -->
+        <image name="md_marquee">
+            <origin>0 1</origin>
+            <pos>0.8 0.36</pos>
+            <minSize>0.16 0.16</minSize>
+            <maxSize>0.16 0.16</maxSize>
+        </image>
+
     </customView>
 
 </theme>
