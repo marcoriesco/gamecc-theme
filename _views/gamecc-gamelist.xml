@@ -161,8 +161,8 @@
 
         <!-- Ajuda - botões para usar no Sistema -->
         <helpsystem name="help">
-            <origin>0 0.5</origin>
-            <pos>0.015 0.960</pos>
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.960</pos>
         </helpsystem>
 
     </view>

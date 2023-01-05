@@ -10,20 +10,8 @@
             <linearSmooth>true</linearSmooth>
             <color>333333</color>
             <gradientType>vertical</gradientType>
-            <zIndex>1</zIndex>
+            <zIndex>99</zIndex>
         </image>
-
-        <!-- <image name="gameloading" extra="true">
-            <origin>0 0</origin>
-            <pos>0.5 0.5</pos>
-            <maxSize>0.1 0.1</maxSize>
-            <path>./_assets/loading.png</path>
-            <zIndex>16</zIndex>
-
-            <storyboard repeat="forever">
-                <animation property="rotation" to="360" begin="0" duration="800" />
-            </storyboard>
-        </image> -->
 
         <image name="backgroundalt" extra="true">
             <origin>0 0</origin>
@@ -67,6 +55,14 @@
         <splash name="splash">
             <backgroundColor>333333</backgroundColor>
         </splash>
+
+        <video name="loading" extra="true">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./_assets/videos/loading.flv</path>
+            <zIndex>99</zIndex>
+        </video>
 
     </view>
 
