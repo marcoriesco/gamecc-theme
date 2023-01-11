@@ -24,7 +24,8 @@
         <video name="md_video">
             <origin>0.5 0</origin>
             <pos>0.5 0.043</pos>
-            <size>0.167 0.263</size>
+            <size>0.22 0.263</size>
+            <size if="${screen.width} > 1920">0.167 0.263</size>
             <showSnapshotDelay>false</showSnapshotDelay>
             <zIndex>23</zIndex>
         </video>

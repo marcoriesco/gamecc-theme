@@ -17,7 +17,8 @@
         <text name="md_chihiro_bg_video" extra="true">
             <origin>0.5 0</origin>
             <pos>0.5 0.346</pos>
-            <size>0.195 0.303</size>
+            <size>0.26 0.303</size>
+            <size if="${screen.width} > 1920">0.195 0.303</size>
             <backgroundColor>000000</backgroundColor>
             <zIndex>21</zIndex>
         </text>
@@ -36,7 +37,6 @@
             <origin>0.5 0</origin>
             <pos>0.5 0.08</pos>
             <size>0.235 0.16</size>
-            <!-- <zIndex>21</zIndex> -->
             <zIndex>0</zIndex>
         </image>
 
@@ -44,7 +44,8 @@
         <video name="md_video">
             <origin>0.5 0</origin>
             <pos>0.5 0.346</pos>
-            <size>0.195 0.303</size>
+            <size>0.26 0.303</size>
+            <size if="${screen.width} > 1920">0.195 0.303</size>
             <zIndex>21</zIndex>
         </video>
 
