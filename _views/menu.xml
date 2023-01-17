@@ -31,29 +31,29 @@
         <menuBackground name="menubg">
             <color>333333</color>
             <cornerSize>32 32</cornerSize>
-            <path>./_inc/frame.png</path>
+            <path>./_inc/frame.webp</path>
         </menuBackground>
         <menuIcons name="menuicons">
-            <iconKodi>./_inc/icons/Kodi.png</iconKodi>
-            <iconSystem>./_inc/icons/System.png</iconSystem>
-            <iconUpdates>./_inc/icons/Updates.png</iconUpdates>
-            <iconGames>./_inc/icons/Games.png</iconGames>
-            <iconControllers>./_inc/icons/Controllers.png</iconControllers>
-            <iconUI>./_inc/icons/UI.png</iconUI>
-            <iconSound>./_inc/icons/Sound.png</iconSound>
-            <iconNetwork>./_inc/icons/Network.png</iconNetwork>
-            <iconScraper>./_inc/icons/Scraper.png</iconScraper>
-            <iconAdvanced>./_inc/icons/Advanced.png</iconAdvanced>
-            <iconQuit>./_inc/icons/Quit.png</iconQuit>
-            <iconRestart>./_inc/icons/Restart.png</iconRestart>
-            <iconShutdown>./_inc/icons/Shutdown.png</iconShutdown>
-            <iconFastShutdown>./_inc/icons/Fastshutdown.png</iconFastShutdown>
-            <iconRetroachievements>./_inc/icons/Contest.png</iconRetroachievements>
-            <iconEmuelec>./_inc/icons/Emuelec.png</iconEmuelec>
+            <iconKodi>./_inc/icons/Kodi.webp</iconKodi>
+            <iconSystem>./_inc/icons/System.webp</iconSystem>
+            <iconUpdates>./_inc/icons/Updates.webp</iconUpdates>
+            <iconGames>./_inc/icons/Games.webp</iconGames>
+            <iconControllers>./_inc/icons/Controllers.webp</iconControllers>
+            <iconUI>./_inc/icons/UI.webp</iconUI>
+            <iconSound>./_inc/icons/Sound.webp</iconSound>
+            <iconNetwork>./_inc/icons/Network.webp</iconNetwork>
+            <iconScraper>./_inc/icons/Scraper.webp</iconScraper>
+            <iconAdvanced>./_inc/icons/Advanced.webp</iconAdvanced>
+            <iconQuit>./_inc/icons/Quit.webp</iconQuit>
+            <iconRestart>./_inc/icons/Restart.webp</iconRestart>
+            <iconShutdown>./_inc/icons/Shutdown.webp</iconShutdown>
+            <iconFastShutdown>./_inc/icons/Fastshutdown.webp</iconFastShutdown>
+            <iconRetroachievements>./_inc/icons/Contest.webp</iconRetroachievements>
+            <iconEmuelec>./_inc/icons/Emuelec.webp</iconEmuelec>
         </menuIcons>
         <menuTextEdit name="menutextedit">
-            <inactive>./_inc/textinput_text.png</inactive>
-            <active>./_inc/textinput_text_active.png</active>
+            <inactive>./_inc/textinput_text.webp</inactive>
+            <active>./_inc/textinput_text_active.webp</active>
         </menuTextEdit>
 
         <helpsystem name="help">

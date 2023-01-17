@@ -9,17 +9,17 @@
 			<fontSize>0.024</fontSize>
 			<textColor>FFFFFFFF</textColor>
 			<iconColor>FFFFFFFF</iconColor>
-			<iconUpDown>./arcade/updown.png</iconUpDown>
-			<iconLeftRight>./arcade/leftright.png</iconLeftRight>
-			<iconUpDownLeftRight>./arcade/all.png</iconUpDownLeftRight>
-			<iconA>./arcade/a.png</iconA>
-			<iconB>./arcade/b.png</iconB>
-			<iconX>./arcade/x.png</iconX>
-			<iconY>./arcade/y.png</iconY>
-			<iconL>./arcade/l.png</iconL>
-			<iconR>./arcade/r.png</iconR>
-			<iconStart>./arcade/start.png</iconStart>
-			<iconSelect>./arcade/select.png</iconSelect>
+			<iconUpDown>./arcade/updown.webp</iconUpDown>
+			<iconLeftRight>./arcade/leftright.webp</iconLeftRight>
+			<iconUpDownLeftRight>./arcade/all.webp</iconUpDownLeftRight>
+			<iconA>./arcade/a.webp</iconA>
+			<iconB>./arcade/b.webp</iconB>
+			<iconX>./arcade/x.webp</iconX>
+			<iconY>./arcade/y.webp</iconY>
+			<iconL>./arcade/l.webp</iconL>
+			<iconR>./arcade/r.webp</iconR>
+			<iconStart>./arcade/start.webp</iconStart>
+			<iconSelect>./arcade/select.webp</iconSelect>
 		</helpsystem>		
 	</view>
 	

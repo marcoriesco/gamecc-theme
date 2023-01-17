@@ -9,17 +9,17 @@
 			<fontSize>0.024</fontSize>
 			<textColor>FFFFFFFF</textColor>
 			<iconColor>FFFFFFFF</iconColor>
-			<iconUpDown>./switch/updown.png</iconUpDown>
-			<iconLeftRight>./switch/leftright.png</iconLeftRight>
-			<iconUpDownLeftRight>./switch/all.png</iconUpDownLeftRight>
-			<iconA>./switch/a.png</iconA>
-			<iconB>./switch/b.png</iconB>
-			<iconX>./switch/x.png</iconX>
-			<iconY>./switch/y.png</iconY>
-			<iconL>./switch/l.png</iconL>
-			<iconR>./switch/r.png</iconR>
-			<iconStart>./switch/start.png</iconStart>
-			<iconSelect>./switch/select.png</iconSelect>
+			<iconUpDown>./switch/updown.webp</iconUpDown>
+			<iconLeftRight>./switch/leftright.webp</iconLeftRight>
+			<iconUpDownLeftRight>./switch/all.webp</iconUpDownLeftRight>
+			<iconA>./switch/a.webp</iconA>
+			<iconB>./switch/b.webp</iconB>
+			<iconX>./switch/x.webp</iconX>
+			<iconY>./switch/y.webp</iconY>
+			<iconL>./switch/l.webp</iconL>
+			<iconR>./switch/r.webp</iconR>
+			<iconStart>./switch/start.webp</iconStart>
+			<iconSelect>./switch/select.webp</iconSelect>
 		</helpsystem>		
 	</view>
 	

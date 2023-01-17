@@ -29,7 +29,7 @@
         </text>
 
         <image name="logo">
-            <path>./../_assets/logos/$system.png</path>
+            <path>./../_assets/logos/$system.webp</path>
             <linearSmooth>true</linearSmooth>
 
             <storyboard event="activate" repeatAt="1">
@@ -48,8 +48,7 @@
             <pos>0 0</pos>
             <size>1 1</size>
             <linearSmooth>true</linearSmooth>
-            <path>./../_assets/arts/$system.jpg</path>
-            <path>./../_assets/arts/$system.png</path>
+            <path>./../_assets/arts/$system.webp</path>
         </image>
 
         <!-- Imagem de Overlay -->
@@ -57,7 +56,7 @@
             <origin>0 0</origin>
             <pos>0 0</pos>
             <size>1 1</size>
-            <path>./../_assets/overlay_down.png</path>
+            <path>./../_assets/overlay_down.webp</path>
             <zIndex>41</zIndex>
         </image>
 

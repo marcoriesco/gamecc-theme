@@ -9,17 +9,17 @@
 			<fontSize>0.024</fontSize>
 			<textColor>FFFFFFFF</textColor>
 			<iconColor>FFFFFFFF</iconColor>
-			<iconUpDown>./psx/updown.png</iconUpDown>
-			<iconLeftRight>./psx/leftright.png</iconLeftRight>
-			<iconUpDownLeftRight>./psx/all.png</iconUpDownLeftRight>
-			<iconA>./psx/a.png</iconA>
-			<iconB>./psx/b.png</iconB>
-			<iconX>./psx/x.png</iconX>
-			<iconY>./psx/y.png</iconY>
-			<iconL>./psx/l.png</iconL>
-			<iconR>./psx/r.png</iconR>
-			<iconStart>./psx/start.png</iconStart>
-			<iconSelect>./psx/select.png</iconSelect>
+			<iconUpDown>./psx/updown.webp</iconUpDown>
+			<iconLeftRight>./psx/leftright.webp</iconLeftRight>
+			<iconUpDownLeftRight>./psx/all.webp</iconUpDownLeftRight>
+			<iconA>./psx/a.webp</iconA>
+			<iconB>./psx/b.webp</iconB>
+			<iconX>./psx/x.webp</iconX>
+			<iconY>./psx/y.webp</iconY>
+			<iconL>./psx/l.webp</iconL>
+			<iconR>./psx/r.webp</iconR>
+			<iconStart>./psx/start.webp</iconStart>
+			<iconSelect>./psx/select.webp</iconSelect>
 		</helpsystem>		
 	</view>
 	

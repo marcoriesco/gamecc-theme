@@ -16,7 +16,7 @@
             <pos>0 0</pos>
             <origin>0 0</origin>
             <size>1 1</size>
-	    	<path>./_assets/arts/splash.png</path>
+	    	<path>./_assets/arts/splash.webp</path>
 			<zIndex>99</zIndex>
 		</image>
 	

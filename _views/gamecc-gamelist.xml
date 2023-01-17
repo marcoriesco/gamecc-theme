@@ -35,11 +35,11 @@
             <origin>0 0</origin>
             <pos>0 0</pos>
             <size>1 1</size>
-            <path>./../_assets/overlay_down.png</path>
+            <path>./../_assets/overlay_down.webp</path>
             <zIndex>15</zIndex>
         </image>
         <image name="overlay2" extra="true">
-            <path>./../_assets/overlay_down.png</path>
+            <path>./../_assets/overlay_down.webp</path>
         </image>
 
         <!-- Overlay -->
@@ -47,7 +47,7 @@
             <origin>0 0</origin>
             <pos>0 0</pos>
             <size>1 1</size>
-            <path>./../_assets/default.jpg</path>
+            <path>./../_assets/default.webp</path>
             <zIndex>1</zIndex>
         </image>
 
@@ -75,7 +75,7 @@
             <origin>0 0</origin>
             <pos>0 0</pos>
             <scale>0.7</scale>
-            <path>./_assets/logos/$system.png</path>
+            <path>./_assets/logos/$system.webp</path>
             <zIndex>99</zIndex>
         </image>
 
@@ -97,13 +97,13 @@
             <origin>1 1</origin>
             <pos>0.99 0.09</pos>
             <pos if="${screen.width} > 1920">0.982 0.09</pos>
-            <path>./_assets/favorite.png</path>
+            <path>./_assets/favorite.webp</path>
             <size>0.032 </size>
             <size if="${screen.width} > 1920">0.025 </size>
             <zIndex>99</zIndex>
         </image>
         <image name="no_favorite" extra="true">
-            <path>./_assets/no-favorite.png</path>
+            <path>./_assets/no-favorite.webp</path>
             <zIndex>98</zIndex>
         </image>        
         <!-- Rating Classificação do Game -->

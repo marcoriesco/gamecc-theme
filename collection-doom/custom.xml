@@ -40,7 +40,7 @@
 
 	<customView name="gamecc_GAMELIST">
 		<image name="art3" extra="true">
-			<path>./_assets/gamecc/coinpc.png</path>
+			<path>./_assets/gamecc/coinpc.webp</path>
 			<zIndex>7</zIndex>
 		</image>
 	</customView>
@@ -48,7 +48,7 @@
 
 	<customView name="gamecc_GAMELIST">
 		<image name="art3" extra="true">
-			<path>./_assets/gamecc/coinpc.png</path>
+			<path>./_assets/gamecc/coinpc.webp</path>
 			<zIndex>7</zIndex>
 		</image>
 	</customView>
