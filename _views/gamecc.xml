@@ -82,29 +82,7 @@
         </datetime>
 
         <!-- Informações do sistema - Jogando fora porq n pode apagar -->
-        <text name="info1, info2" extra="true">
-            <pos>11 11</pos>
-            <fontSize>0</fontSize>
-            <zIndex>0</zIndex>
-        </text>
-        <text name="info1" extra="true">
-            <fontPath>./../_inc/fonts/texgyre.otf</fontPath>
-            <color>8f8f8f</color>
-            <alignment>left</alignment>
-            <fontSize>0.022</fontSize>
-            <lineSpacing>1</lineSpacing>
-            <size>0.38 0</size>
-            <pos>11 11</pos>
-            <glowColor>00000016</glowColor>
-            <glowSize>1</glowSize>
-            <zIndex>42</zIndex>
-            <storyboard>
-                <animation property="offsetX" from="-2" to="0" begin="" duration="900" mode="Linear" autoReverse="false"/>
-            </storyboard>
-        </text>
-        <text name="info3, info4, info5" extra="true">
-            <pos>11 11</pos>
-            <fontSize>0</fontSize>
+        <text name="info1, info2, info3, info4, info5" extra="true">
             <zIndex>0</zIndex>
         </text>
         <!-- não alterar -->
