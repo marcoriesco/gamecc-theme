@@ -8,11 +8,13 @@
             <fontSize>0.04</fontSize>
             <color>ffffff</color>
         </menuText>
+
         <menuText name="menufooter">
             <fontPath>./_inc/fonts/Roboto-Regular.ttf</fontPath>
             <fontSize>0.023</fontSize>
             <color>868686</color>
         </menuText>
+
         <menuText name="menutext">
             <fontPath>./_inc/fonts/Roboto-Regular.ttf</fontPath>
             <fontSize>0.029</fontSize>
@@ -23,16 +25,19 @@
             <selectedColor>FFFFFF</selectedColor>
             <selectorGradientType>horizontal</selectorGradientType>
         </menuText>
+
         <menuTextSmall name="menutextsmall">
             <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
             <fontSize>0.020</fontSize>
             <color>FFFFFF</color>
         </menuTextSmall>
+
         <menuBackground name="menubg">
             <color>333333</color>
             <cornerSize>32 32</cornerSize>
             <path>./_inc/frame.webp</path>
         </menuBackground>
+
         <menuIcons name="menuicons">
             <iconKodi>./_inc/icons/Kodi.webp</iconKodi>
             <iconSystem>./_inc/icons/System.webp</iconSystem>
@@ -51,6 +56,7 @@
             <iconRetroachievements>./_inc/icons/Contest.webp</iconRetroachievements>
             <iconEmuelec>./_inc/icons/Emuelec.webp</iconEmuelec>
         </menuIcons>
+        
         <menuTextEdit name="menutextedit">
             <inactive>./_inc/textinput_text.webp</inactive>
             <active>./_inc/textinput_text_active.webp</active>
