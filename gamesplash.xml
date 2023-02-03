@@ -41,7 +41,7 @@
 
         <text name="label">
             <origin>0 0.5</origin>
-            <pos>0 0.82</pos>
+            <pos>0 0.75</pos>
             <size>1 1</size>
             <alignment>center</alignment>
             <color>9f0043</color>
@@ -62,7 +62,7 @@
             <pos>0 0</pos>
             <size>1 1</size>
             <path>./_assets/videos/loading.flv</path>
-            <zIndex>99</zIndex>
+            <zIndex>0</zIndex>
         </video>
 
     </view>

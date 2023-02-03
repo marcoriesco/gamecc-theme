@@ -1,0 +1,10 @@
+<theme>
+    <formatVersion>7</formatVersion>
+
+    <customView name="gamecarousel">
+        <gamecarousel name="gamecarousel">
+            <logoScale>2.8</logoScale>
+        </gamecarousel>
+    </customView>
+
+</theme>
