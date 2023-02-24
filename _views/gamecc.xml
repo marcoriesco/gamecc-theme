@@ -55,7 +55,7 @@
             <origin>0 0</origin>
             <pos>0 0</pos>
             <size>1 1</size>
-            <path>./../_assets/overlay_down.webp</path>
+            <path>./../_assets/overlay.webp</path>
             <zIndex>41</zIndex>
         </image>
 

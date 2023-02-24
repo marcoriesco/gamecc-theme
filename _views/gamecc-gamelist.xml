@@ -5,14 +5,13 @@
     <view name="gamecarousel" tinyScreen="false" displayName="gamecc GAMELIST">
         <gamecarousel name="gamecarousel">
             <type>horizontal</type>
-            <origin>0 1</origin>
-            <pos>0 1</pos>
-            <pos if="${screen.width} > 1920">0 0.95</pos>
-            <size>1.6 0.5</size>
+            <origin>0 0.5</origin>
+            <pos>0.1 0.5</pos>
+            <size>1.25 1</size>
             <backgroundColor>333333</backgroundColor>
-            <logoScale>2</logoScale>
-            <logoSize>0.045 0.5</logoSize>
-            <maxLogoCount>19</maxLogoCount>
+            <logoScale>2.8</logoScale>
+            <logoSize>0.05 0.40</logoSize>
+            <maxLogoCount>18</maxLogoCount>
             <logoRotation>0</logoRotation>
             <logoRotationOrigin>1 1</logoRotationOrigin>
             <logoAlignment>center</logoAlignment>
@@ -35,45 +34,61 @@
             <origin>0 0</origin>
             <pos>0 0</pos>
             <size>1 1</size>
-            <path>./../_assets/overlay_down.webp</path>
+            <path>./../_assets/overlay.webp</path>
             <zIndex>15</zIndex>
         </image>
         <image name="overlay2" extra="true">
-            <path>./../_assets/overlay_down.webp</path>
+            <path>./../_assets/overlay.webp</path>
         </image>
 
-        <!-- Overlay -->
-        <image name="background_fix" extra="true">
+        <!-- Background Default -->
+        <image name="background_default" extra="true">
             <origin>0 0</origin>
             <pos>0 0</pos>
             <size>1 1</size>
             <path>./../_assets/default.webp</path>
+            <path>./../$system/assets/wall.webp</path>
             <zIndex>1</zIndex>
         </image>
 
-        <!-- Video Game Preview -->
+        <!-- VÍDEO -->
+        <!-- Vídeo Game Preview -->
         <video name="md_video">
-            <origin>0 0</origin>
-            <pos>0 0</pos>
-            <size>1 1</size>
-            <delay>2.5</delay>
+            <origin>0 0.5</origin>
+            <pos>0.105 0.5</pos>
+            <size>0.34 0.45</size>
+            <delay>2</delay>
             <effect>none</effect>
-            <default>./_assets/videos/video_default.mp4</default>
+            <default>./../_assets/videos/video_default.mp4</default>
+            <default>./../$system/assets/video_default.mp4</default>
             <snapshotSource>image</snapshotSource>
             <showSnapshotDelay>true</showSnapshotDelay>
-            <zIndex>6</zIndex>
+            <zIndex>98</zIndex>
         </video>
 
-        <!-- Informações do sistema - Jogando fora porq n pode apagar -->
-        <image name="art, art2, art3" extra="true">
-            <zIndex>0</zIndex>
+        <!-- Vídeo Border -->
+        <image name="md_video_border" extra="true">
+            <origin>0 0.5</origin>
+            <pos>0.1 0.5</pos>
+            <path>./../_assets/border.webp</path>
+            <path>./../$system/assets/border.webp</path>
+            <zIndex>99</zIndex>
         </image>
-        <!-- não alterar -->
+
+        <!-- Vídeo Overlay -->
+        <image name="md_video_overlay" extra="true">
+            <origin>0 0.5</origin>
+            <pos>0.105 0.5</pos>
+            <size>0.34 0.45</size>
+            <path>./../_assets/overlay_video.webp</path>
+            <path>./../$system/assets/overlay_video.webp</path>
+            <zIndex>98</zIndex>
+        </image>
 
         <!-- Logo do Sistema -->
         <image name="logo">
-            <origin>0 0</origin>
-            <pos>0.9 0</pos>
+            <origin>1 0.5</origin>
+            <pos>1 0.05</pos>
             <size>0.15 </size>
             <scale>0.7</scale>
             <path>./_assets/logos/$system.webp</path>
@@ -99,74 +114,47 @@
         <!-- Name -->
         <text name="md_name">
             <origin>0 0</origin>
-            <pos>0.05 0.03</pos>
-            <size>0.8 0</size>
-            <fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
+            <pos>0 0.02</pos>
+            <size>1 0</size>
+            <fontPath>./_inc/fonts/LEMONMILK-Bold.otf</fontPath>
+            <!-- <glowColor>00000020</glowColor>
+                    <glowSize>1</glowSize>
+                    <glowOffset>2</glowOffset> -->
             <fontSize>0.040</fontSize>
-            <color>FFFFFFFF</color>
-            <alignment>left</alignment>
+            <color>FFFFFF</color>
+            <alignment>center</alignment>
             <zIndex>99</zIndex>
         </text>
 
         <!-- Rating Classificação do Game -->
         <rating name="md_rating">
-            <origin>0 0</origin>
-            <pos>0.05 0.095</pos>
-            <size>0.05 0.03</size>
+            <origin>0.5 0</origin>
+            <pos>0.97 0.095</pos>
+            <size>1 0.03</size>
             <color>FFFFFF</color>
+            <filledPath>./_inc/images/star_filled.svg</filledPath>
             <unfilledPath>./_inc/images/star_empty.svg</unfilledPath>
             <unfilledColor>FFFFFF</unfilledColor>
-            <horizontalAlignment>left</horizontalAlignment>
+            <horizontalAlignment>center</horizontalAlignment>
             <zIndex>99</zIndex>
         </rating>
 
-        <!-- Lancamento -->
-        <datetime name="md_releasedate">
-            <origin>0 0</origin>
-            <pos>0.05 0.15</pos>
-            <backgroundColor>${pinkColor}</backgroundColor>
-            <fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
-            <fontSize>0.020</fontSize>
-            <color>FFFFFF</color>
-            <forceUppercase>true</forceUppercase>
-            <format>%Y</format>
-            <size>0.025 0.03</size>
-            <alignment>center</alignment>
-            <padding>0.005 0 0.005 0</padding>
-            <zIndex>99</zIndex>
-        </datetime>
-
-        <!-- Genero -->
-        <text name="md_genre">
-            <origin>0 0</origin>
-            <pos>0.05 0.185</pos>
-            <backgroundColor>${pinkColor}</backgroundColor>
-            <fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
-            <fontSize>0.020</fontSize>
-            <color>FFFFFF</color>
-            <forceUppercase>true</forceUppercase>
-            <size>0 0.03</size>
-            <alignment>left</alignment>
-            <padding>0.005 0 0.005 0</padding>
-            <zIndex>99</zIndex>
-        </text>
-
         <!-- Logo -->
         <image name="md_marquee">
-            <origin>0 0</origin>
-            <pos>0.05 0.3</pos>
+            <origin>0 0.5</origin>
+            <pos>0.05 0.07</pos>
             <minSize>0.1 0.1</minSize>
             <maxSize>0.1 0.1</maxSize>
             <horizontalAlignment>left</horizontalAlignment>
-            <verticalAlignment>bottom</verticalAlignment>
+            <verticalAlignment>center</verticalAlignment>
             <zIndex>99</zIndex>
         </image>
 
-        <!-- Ajuda - botões para usar no Sistema -->
-        <helpsystem name="help">
-            <origin>0.5 0.5</origin>
-            <pos>0.5 0.960</pos>
-        </helpsystem>
+
+        <!-- Informações do sistema - HIDE -->
+        <image name="art, art2, art3" extra="true">
+            <zIndex>0</zIndex>
+        </image>
 
     </view>
 
