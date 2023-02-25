@@ -90,15 +90,13 @@
     <view name="screen">
         <controllerActivity name="controllerActivity">
             <origin>0 0</origin>
-            <!-- <pos>0.015 0.930</pos> -->
-            <pos>999 999</pos>
+            <pos>0.015 0.930</pos>
             <size>0.05 0.05</size>
             <itemSpacing>0.003</itemSpacing>
-            <imagePath>./../_inc/gamepad.svg</imagePath>
+            <imagePath>./../_assets/gamepad.svg</imagePath>
             <color>FFFFFF80</color>
             <activityColor>FFFFFF</activityColor>
             <hotkeyColor>FFA0A0C0</hotkeyColor>
-            <zIndex>0</zIndex>
         </controllerActivity>
     </view>
 

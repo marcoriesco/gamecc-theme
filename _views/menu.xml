@@ -19,7 +19,7 @@
             <fontPath>./_inc/fonts/Roboto-Regular.ttf</fontPath>
             <fontSize>0.029</fontSize>
             <color>868686</color>
-            <separatorColor>191919</separatorColor>
+            <separatorColor>333333</separatorColor>
             <selectorColor>9f0043</selectorColor>
             <selectorColorEnd>9f0043</selectorColorEnd>
             <selectedColor>FFFFFF</selectedColor>
@@ -35,7 +35,6 @@
         <menuBackground name="menubg">
             <color>333333</color>
             <cornerSize>32 32</cornerSize>
-            <path>./_inc/frame.webp</path>
         </menuBackground>
 
         <menuIcons name="menuicons">
@@ -57,11 +56,6 @@
             <iconEmuelec>./_inc/icons/Emuelec.webp</iconEmuelec>
         </menuIcons>
         
-        <menuTextEdit name="menutextedit">
-            <inactive>./_inc/textinput_text.webp</inactive>
-            <active>./_inc/textinput_text_active.webp</active>
-        </menuTextEdit>
-
         <helpsystem name="help">
             <fontPath>./_inc/fonts/Roboto-Regular.ttf</fontPath>
             <fontSize>0.022</fontSize>

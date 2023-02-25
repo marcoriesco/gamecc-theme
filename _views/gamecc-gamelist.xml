@@ -6,12 +6,13 @@
         <gamecarousel name="gamecarousel">
             <type>horizontal</type>
             <origin>0 0.5</origin>
-            <pos>0.1 0.5</pos>
-            <size>1.25 1</size>
+            <pos>0.45 0.5</pos>
+            <size>0.55 1</size>
             <backgroundColor>333333</backgroundColor>
             <logoScale>2.8</logoScale>
-            <logoSize>0.05 0.40</logoSize>
-            <maxLogoCount>18</maxLogoCount>
+            <logoScale if="${screen.width} > 1920">2.4</logoScale>
+            <logoSize>0.15 0.5</logoSize>
+            <maxLogoCount>6</maxLogoCount>
             <logoRotation>0</logoRotation>
             <logoRotationOrigin>1 1</logoRotationOrigin>
             <logoAlignment>center</logoAlignment>
@@ -55,8 +56,8 @@
         <!-- Vídeo Game Preview -->
         <video name="md_video">
             <origin>0 0.5</origin>
-            <pos>0.105 0.5</pos>
-            <size>0.34 0.45</size>
+            <pos>0.05 0.5</pos>
+            <size>0.40 0.45</size>
             <delay>2</delay>
             <effect>none</effect>
             <default>./../_assets/videos/video_default.mp4</default>
@@ -69,7 +70,8 @@
         <!-- Vídeo Border -->
         <image name="md_video_border" extra="true">
             <origin>0 0.5</origin>
-            <pos>0.1 0.5</pos>
+            <pos>0.05 0.5</pos>
+            <size>0.40 0.45</size>
             <path>./../_assets/border.webp</path>
             <path>./../$system/assets/border.webp</path>
             <zIndex>99</zIndex>
@@ -78,8 +80,8 @@
         <!-- Vídeo Overlay -->
         <image name="md_video_overlay" extra="true">
             <origin>0 0.5</origin>
-            <pos>0.105 0.5</pos>
-            <size>0.34 0.45</size>
+            <pos>0.05 0.5</pos>
+            <size>0.40 0.45</size>
             <path>./../_assets/overlay_video.webp</path>
             <path>./../$system/assets/overlay_video.webp</path>
             <zIndex>98</zIndex>

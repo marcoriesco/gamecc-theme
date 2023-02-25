@@ -3,7 +3,7 @@
 
     <customView name="gamecarousel">
         
-        <!-- Video Game Preview: HIDE -->
+        <!-- Video Game PrecustomView: HIDE -->
         <video name="overlay, overlay2">
             <zIndex>0</zIndex>
         </video>
@@ -13,6 +13,13 @@
             <color>0d723e</color>
         </text>
 
+    </customView>
+
+    <customView name="screen">
+        <controllerActivity name="controllerActivity">
+            <pos>0.4315 0.930</pos>
+            <!-- <imagePath>./../xbox360/assets/gamepad.svg</imagePath> -->
+        </controllerActivity>
     </customView>
 
 </theme>
