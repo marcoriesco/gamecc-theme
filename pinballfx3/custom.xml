@@ -3,21 +3,17 @@
 
     <customView name="gamecarousel">
 
+        <gamecarousel name="gamecarousel">
+            <pos>0.425 0.5</pos>
+            <size>0.575 1</size>
+        </gamecarousel>
+
         <!-- Fullcabinets -->
         <image name="md_boxart">
-            <origin>0.5 0</origin>
-            <pos>0.5 0</pos>
-            <size>0 0</size>
-            <scale>1.5</scale>
+            <origin>0 0.5</origin>
+            <pos>0.175 0.5</pos>
+            <size>0.25 0.45</size>
             <zIndex>22</zIndex>
-        </image>
-
-        <!-- Marquee -->
-        <image name="md_boxback">
-            <origin>0.5 0</origin>
-            <pos>0.5 0.58</pos>
-            <size>0.266 0.195</size>
-            <zIndex>0</zIndex>
         </image>
 
         <!-- Video Preview -->
@@ -30,17 +26,10 @@
             <zIndex>23</zIndex>
         </video>
 
-        <!-- Arcade Background Vídeo -->
-        <video name="md_video_background" extra="true">
-            <origin>0 0</origin>
-            <pos>0 0</pos>
-            <size>1 1</size>
-            <path>./_assets/videos/arcade.mp4</path>
-            <showSnapshotDelay>false</showSnapshotDelay>
-            <delay>0</delay>
-            <effect>none</effect>
-            <zIndex>4</zIndex>
-        </video>
+        <!-- Vídeo Border -->
+        <image name="md_video_border, md_video_overlay" extra="true">
+            <zIndex>0</zIndex>
+        </image>
 
     </customView>
 

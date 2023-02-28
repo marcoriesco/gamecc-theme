@@ -9,8 +9,8 @@
             <pos>0.45 0.5</pos>
             <size>0.55 1</size>
             <backgroundColor>333333</backgroundColor>
-            <logoScale>2.8</logoScale>
-            <logoScale if="${screen.width} > 1920">2.4</logoScale>
+            <logoScale>2.2</logoScale>
+            <logoScale if="${screen.width} > 1920">2</logoScale>
             <logoSize>0.15 0.5</logoSize>
             <maxLogoCount>6</maxLogoCount>
             <logoRotation>0</logoRotation>
@@ -72,7 +72,7 @@
             <origin>0 0.5</origin>
             <pos>0.05 0.5</pos>
             <size>0.40 0.45</size>
-            <path>./../_assets/border.webp</path>
+            <path>./../_assets/border-16x9.webp</path>
             <path>./../$system/assets/border.webp</path>
             <zIndex>99</zIndex>
         </image>
@@ -119,10 +119,7 @@
             <pos>0 0.02</pos>
             <size>1 0</size>
             <fontPath>./_inc/fonts/LEMONMILK-Bold.otf</fontPath>
-            <!-- <glowColor>00000020</glowColor>
-                    <glowSize>1</glowSize>
-                    <glowOffset>2</glowOffset> -->
-            <fontSize>0.040</fontSize>
+            <fontSize>0.032</fontSize>
             <color>FFFFFF</color>
             <alignment>center</alignment>
             <zIndex>99</zIndex>
@@ -131,7 +128,7 @@
         <!-- Rating Classificação do Game -->
         <rating name="md_rating">
             <origin>0.5 0</origin>
-            <pos>0.97 0.095</pos>
+            <pos>0.97 0.08</pos>
             <size>1 0.03</size>
             <color>FFFFFF</color>
             <filledPath>./_inc/images/star_filled.svg</filledPath>

@@ -11,13 +11,13 @@
 
         <menuText name="menufooter">
             <fontPath>./_inc/fonts/Roboto-Regular.ttf</fontPath>
-            <fontSize>0.023</fontSize>
+            <fontSize>0.020</fontSize>
             <color>868686</color>
         </menuText>
 
         <menuText name="menutext">
             <fontPath>./_inc/fonts/Roboto-Regular.ttf</fontPath>
-            <fontSize>0.029</fontSize>
+            <fontSize>0.024</fontSize>
             <color>868686</color>
             <separatorColor>333333</separatorColor>
             <selectorColor>9f0043</selectorColor>

@@ -4,7 +4,7 @@
 	<view name="menu, system, gamecarousel">
 		<helpsystem name="help">
 			<origin>0.5 0.5</origin>
-			<pos>0.5 0.960</pos>
+			<pos>0.5 0.970</pos>
 			<fontPath>./../_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
 			<fontSize>0.024</fontSize>
 			<textColor>FFFFFFFF</textColor>

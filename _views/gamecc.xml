@@ -93,7 +93,7 @@
             <pos>0.015 0.930</pos>
             <size>0.05 0.05</size>
             <itemSpacing>0.003</itemSpacing>
-            <imagePath>./../_assets/gamepad.svg</imagePath>
+            <imagePath>./../_assets/indicators/default.svg</imagePath>
             <color>FFFFFF80</color>
             <activityColor>FFFFFF</activityColor>
             <hotkeyColor>FFA0A0C0</hotkeyColor>

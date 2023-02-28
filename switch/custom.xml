@@ -2,10 +2,6 @@
     <formatVersion>7</formatVersion>
 
     <customView name="gamecarousel">
-        <gamecarousel name="gamecarousel">
-            <logoScale if="${screen.width} > 1920">2</logoScale>
-        </gamecarousel>
-
         <!-- Video Game Preview: HIDE -->
         <video name="overlay, overlay2">
             <zIndex>0</zIndex>
