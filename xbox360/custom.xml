@@ -13,13 +13,12 @@
             <color>0d723e</color>
         </text>
 
-    </customView>
+        <!-- Rating Classificação do Game -->
+        <rating name="md_rating">
+            <color>0d723e</color>
+            <unfilledColor>0d723e</unfilledColor>
+        </rating>
 
-    <customView name="screen">
-        <controllerActivity name="controllerActivity">
-            <pos>0.4315 0.930</pos>
-            <!-- <imagePath>./../xbox360/assets/gamepad.svg</imagePath> -->
-        </controllerActivity>
     </customView>
 
 </theme>

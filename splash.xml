@@ -42,7 +42,7 @@
             <glowSize>2</glowSize>
             <glowOffset>2</glowOffset>
             <lineSpacing>1.0</lineSpacing>
-            <fontPath>./_inc/fonts/LEMONMILK-Medium.otf</fontPath>
+            <fontPath>./_assets/fonts/LEMONMILK-Medium.otf</fontPath>
             <fontSize>0.042</fontSize>
 		</text>
 		

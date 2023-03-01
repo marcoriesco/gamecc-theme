@@ -26,7 +26,7 @@
             <glowSize>3</glowSize>
             <glowOffset>3</glowOffset>
             <lineSpacing>1.0</lineSpacing>
-            <fontPath>./_inc/fonts/LEMONMILK-Bold.otf</fontPath>
+            <fontPath>./_assets/fonts/LEMONMILK-Bold.otf</fontPath>
             <fontSize>0.040</fontSize>
         </text>
 
@@ -90,7 +90,7 @@
         <!-- Logo do Sistema -->
         <image name="logo">
             <origin>1 0.5</origin>
-            <pos>1 0.05</pos>
+            <pos>0.99 0.055</pos>
             <size>0.15 </size>
             <scale>0.7</scale>
             <path>./_assets/logos/$system.webp</path>
@@ -100,12 +100,10 @@
         <!-- Informações -->
         <!-- Favorite -->
         <image name="md_favorite, no_favorite">
-            <origin>0 0</origin>
-            <pos>0.015 0.03</pos>
-            <pos if="${screen.width} > 1920">0.015 0.03</pos>
+            <origin>0 0.5</origin>
+            <pos>0.015 0.055</pos>
             <path>./_assets/favorite.webp</path>
-            <size>0.032 </size>
-            <size if="${screen.width} > 1920">0.025 </size>
+            <size>0.025 </size>
             <zIndex>99</zIndex>
         </image>
         <image name="no_favorite" extra="true">
@@ -115,10 +113,10 @@
 
         <!-- Name -->
         <text name="md_name">
-            <origin>0 0</origin>
-            <pos>0 0.02</pos>
+            <origin>0 0.5</origin>
+            <pos>0 0.05</pos>
             <size>1 0</size>
-            <fontPath>./_inc/fonts/LEMONMILK-Bold.otf</fontPath>
+            <fontPath>./_assets/fonts/LEMONMILK-Bold.otf</fontPath>
             <fontSize>0.032</fontSize>
             <color>FFFFFF</color>
             <alignment>center</alignment>
@@ -128,26 +126,28 @@
         <!-- Rating Classificação do Game -->
         <rating name="md_rating">
             <origin>0.5 0</origin>
-            <pos>0.97 0.08</pos>
-            <size>1 0.03</size>
+            <pos>0.5 0.08</pos>
+            <size>0 0.03</size>
             <color>FFFFFF</color>
-            <filledPath>./_inc/images/star_filled.svg</filledPath>
-            <unfilledPath>./_inc/images/star_empty.svg</unfilledPath>
             <unfilledColor>FFFFFF</unfilledColor>
             <horizontalAlignment>center</horizontalAlignment>
             <zIndex>99</zIndex>
         </rating>
 
         <!-- Logo -->
-        <image name="md_marquee">
+        <image name="md_marquee, marquee_overlay">
             <origin>0 0.5</origin>
-            <pos>0.05 0.07</pos>
+            <pos>0.05 0.055</pos>
             <minSize>0.1 0.1</minSize>
             <maxSize>0.1 0.1</maxSize>
             <horizontalAlignment>left</horizontalAlignment>
             <verticalAlignment>center</verticalAlignment>
             <zIndex>99</zIndex>
         </image>
+        <text name="marquee_overlay" extra="true">
+            <size>0.1 0.1</size>
+            <backgroundColor>FFFFFF00</backgroundColor>
+        </text>
 
 
         <!-- Informações do sistema - HIDE -->

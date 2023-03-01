@@ -23,7 +23,7 @@
             <glowSize>3</glowSize>
             <glowOffset>3</glowOffset>
             <lineSpacing>1.0</lineSpacing>
-            <fontPath>./_inc/fonts/LEMONMILK-Bold.otf</fontPath>
+            <fontPath>./_assets/fonts/LEMONMILK-Bold.otf</fontPath>
             <fontSize>0.072</fontSize>
         </text>
 
@@ -63,7 +63,7 @@
         <text name="systemInfo">
             <alignment>right</alignment>
             <pos>-0.025 0.94</pos>
-            <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
+            <fontPath>./_assets/fonts/Roboto-Medium.ttf</fontPath>
             <fontSize>0.022</fontSize>
             <color>ffffff</color>
             <zIndex>95</zIndex>

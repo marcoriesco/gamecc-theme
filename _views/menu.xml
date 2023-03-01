@@ -4,19 +4,19 @@
 
     <view name="menu">
         <menuText name="menutitle">
-            <fontPath>./_inc/fonts/Roboto-Bold.ttf</fontPath>
+            <fontPath>./_assets/fonts/Roboto-Bold.ttf</fontPath>
             <fontSize>0.04</fontSize>
             <color>ffffff</color>
         </menuText>
 
         <menuText name="menufooter">
-            <fontPath>./_inc/fonts/Roboto-Regular.ttf</fontPath>
+            <fontPath>./_assets/fonts/Roboto-Regular.ttf</fontPath>
             <fontSize>0.020</fontSize>
             <color>868686</color>
         </menuText>
 
         <menuText name="menutext">
-            <fontPath>./_inc/fonts/Roboto-Regular.ttf</fontPath>
+            <fontPath>./_assets/fonts/Roboto-Regular.ttf</fontPath>
             <fontSize>0.024</fontSize>
             <color>868686</color>
             <separatorColor>333333</separatorColor>
@@ -27,7 +27,7 @@
         </menuText>
 
         <menuTextSmall name="menutextsmall">
-            <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
+            <fontPath>./_assets/fonts/Roboto-Medium.ttf</fontPath>
             <fontSize>0.020</fontSize>
             <color>FFFFFF</color>
         </menuTextSmall>
@@ -38,26 +38,26 @@
         </menuBackground>
 
         <menuIcons name="menuicons">
-            <iconKodi>./_inc/icons/Kodi.webp</iconKodi>
-            <iconSystem>./_inc/icons/System.webp</iconSystem>
-            <iconUpdates>./_inc/icons/Updates.webp</iconUpdates>
-            <iconGames>./_inc/icons/Games.webp</iconGames>
-            <iconControllers>./_inc/icons/Controllers.webp</iconControllers>
-            <iconUI>./_inc/icons/UI.webp</iconUI>
-            <iconSound>./_inc/icons/Sound.webp</iconSound>
-            <iconNetwork>./_inc/icons/Network.webp</iconNetwork>
-            <iconScraper>./_inc/icons/Scraper.webp</iconScraper>
-            <iconAdvanced>./_inc/icons/Advanced.webp</iconAdvanced>
-            <iconQuit>./_inc/icons/Quit.webp</iconQuit>
-            <iconRestart>./_inc/icons/Restart.webp</iconRestart>
-            <iconShutdown>./_inc/icons/Shutdown.webp</iconShutdown>
-            <iconFastShutdown>./_inc/icons/Fastshutdown.webp</iconFastShutdown>
-            <iconRetroachievements>./_inc/icons/Contest.webp</iconRetroachievements>
-            <iconEmuelec>./_inc/icons/Emuelec.webp</iconEmuelec>
+            <iconKodi>./_assets/icons/Kodi.webp</iconKodi>
+            <iconSystem>./_assets/icons/System.webp</iconSystem>
+            <iconUpdates>./_assets/icons/Updates.webp</iconUpdates>
+            <iconGames>./_assets/icons/Games.webp</iconGames>
+            <iconControllers>./_assets/icons/Controllers.webp</iconControllers>
+            <iconUI>./_assets/icons/UI.webp</iconUI>
+            <iconSound>./_assets/icons/Sound.webp</iconSound>
+            <iconNetwork>./_assets/icons/Network.webp</iconNetwork>
+            <iconScraper>./_assets/icons/Scraper.webp</iconScraper>
+            <iconAdvanced>./_assets/icons/Advanced.webp</iconAdvanced>
+            <iconQuit>./_assets/icons/Quit.webp</iconQuit>
+            <iconRestart>./_assets/icons/Restart.webp</iconRestart>
+            <iconShutdown>./_assets/icons/Shutdown.webp</iconShutdown>
+            <iconFastShutdown>./_assets/icons/Fastshutdown.webp</iconFastShutdown>
+            <iconRetroachievements>./_assets/icons/Contest.webp</iconRetroachievements>
+            <iconEmuelec>./_assets/icons/Emuelec.webp</iconEmuelec>
         </menuIcons>
         
         <helpsystem name="help">
-            <fontPath>./_inc/fonts/Roboto-Regular.ttf</fontPath>
+            <fontPath>./_assets/fonts/Roboto-Regular.ttf</fontPath>
             <fontSize>0.022</fontSize>
             <pos>0.06 0.955</pos>
             <textColor>FFFFFF</textColor>

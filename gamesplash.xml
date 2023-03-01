@@ -29,7 +29,7 @@
             <glowSize>2</glowSize>
             <glowOffset>2</glowOffset>
             <lineSpacing>1.0</lineSpacing>
-            <fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
+            <fontPath>./_assets/fonts/Roboto-Medium.ttf</fontPath>
             <fontSize>0.036</fontSize>
             <text>LOADING...</text>
             <text lang="pt">CARREGANDO...</text>
@@ -49,7 +49,7 @@
             <glowSize>2</glowSize>
             <glowOffset>2</glowOffset>
             <lineSpacing>1.0</lineSpacing>
-            <fontPath>./_inc/fonts/LEMONMILK-Bold.otf</fontPath>
+            <fontPath>./_assets/fonts/LEMONMILK-Bold.otf</fontPath>
             <fontSize>0.048</fontSize>
         </text>
 

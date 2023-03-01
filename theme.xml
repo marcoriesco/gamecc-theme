@@ -13,16 +13,16 @@
 <theme defaultView="gamecarousel">
     <formatVersion>7</formatVersion>
 
-    <include subset="iconset" name="standard icons" displayName="${icondef}">./_inc/iconsets/default.xml</include>
-    <include subset="iconset" name="GAMECC">./_inc/iconsets/gamecc.xml</include>
-    <include subset="iconset" name="SNES">./_inc/iconsets/snes.xml</include>
-    <include subset="iconset" name="SNES ALT">./_inc/iconsets/snesalt.xml</include>
-    <include subset="iconset" name="XBox">./_inc/iconsets/xbox.xml</include>
-    <include subset="iconset" name="Default PSX">./_inc/iconsets/psx.xml</include>
-    <include subset="iconset" name="ARCADE">./_inc/iconsets/arcade.xml</include>
-    <include subset="iconset" name="PSX ALT">./_inc/iconsets/psx1.xml</include>
-    <include subset="iconset" name="Xbox One">./_inc/iconsets/xboxone.xml</include>
-    <include subset="iconset" name="Switch">./_inc/iconsets/switch.xml</include>
+    <include subset="iconset" name="standard icons" displayName="${icondef}">./_assets/iconsets/default.xml</include>
+    <include subset="iconset" name="GAMECC">./_assets/iconsets/gamecc.xml</include>
+    <include subset="iconset" name="SNES">./_assets/iconsets/snes.xml</include>
+    <include subset="iconset" name="SNES ALT">./_assets/iconsets/snesalt.xml</include>
+    <include subset="iconset" name="XBox">./_assets/iconsets/xbox.xml</include>
+    <include subset="iconset" name="Default PSX">./_assets/iconsets/psx.xml</include>
+    <include subset="iconset" name="ARCADE">./_assets/iconsets/arcade.xml</include>
+    <include subset="iconset" name="PSX ALT">./_assets/iconsets/psx1.xml</include>
+    <include subset="iconset" name="Xbox One">./_assets/iconsets/xboxone.xml</include>
+    <include subset="iconset" name="Switch">./_assets/iconsets/switch.xml</include>
 
     <feature supported="carousel">
         <view name="system">
