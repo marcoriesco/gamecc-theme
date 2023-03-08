@@ -4,15 +4,14 @@
     <customView name="gamecarousel">
         
         <gamecarousel name="gamecarousel">
-            <pos>0.425 0.5</pos>
-            <size>0.575 1</size>
+            <pos>0.43 0.5</pos>
+            <size>0.57 1</size>
         </gamecarousel>
 
         <!-- Video Preview -->
         <video name="md_video, md_arcade_bg_video">
-            <origin>0 0.5</origin>
-            <pos>0.2 0.5</pos>
-            <size>0.2 0.3155</size>
+            <pos>0.058 0.5</pos>
+            <size>0.374 0.42</size>
             <zIndex>21</zIndex>
         </video>
 
@@ -24,8 +23,7 @@
 
         <!-- Vídeo Border -->
         <image name="md_video_border, md_video_overlay" extra="true">
-            <pos>0.175 0.5</pos>
-            <size>0.25 0.45</size>
+            <size>0.389 0.455</size>
             <path>./../_assets/border-4x3.webp</path>
         </image>
 

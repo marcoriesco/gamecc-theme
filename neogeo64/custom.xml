@@ -1,34 +1,4 @@
 <theme>
     <formatVersion>7</formatVersion>
-
-    <customView name="gamecarousel">
-
-        <gamecarousel name="gamecarousel">
-            <pos>0.425 0.5</pos>
-            <size>0.575 1</size>
-        </gamecarousel>
-
-        <!-- Video Preview -->
-        <video name="md_video, md_arcade_bg_video">
-            <origin>0 0.5</origin>
-            <pos>0.2 0.5</pos>
-            <size>0.2 0.3155</size>
-            <zIndex>21</zIndex>
-        </video>
-
-        <!-- vídeo overlay black -->
-        <text name="md_arcade_bg_video" extra="true">
-            <backgroundColor>000000</backgroundColor>
-            <zIndex>20</zIndex>
-        </text>
-
-        <!-- Vídeo Border -->
-        <image name="md_video_border, md_video_overlay" extra="true">
-            <pos>0.175 0.5</pos>
-            <size>0.25 0.45</size>
-            <path>./../_assets/border-4x3.webp</path>
-        </image>
-
-    </customView>
-
+    <include>./../arcade/custom.xml</include>
 </theme>
