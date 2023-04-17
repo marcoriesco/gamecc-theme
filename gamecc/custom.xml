@@ -3,14 +3,17 @@
 
     <customView name="gamecarousel">
 
-        <gamecarousel name="gamecarousel">
-            <imageSource>marquee</imageSource>
-        </gamecarousel>
-
         <!-- Video Game Preview: HIDE -->
-        <video name="md_video, md_marquee, md_favorite, no_favorite, md_rating, md_releasedate, md_genre">
+        <video name="md_video, md_video_border, md_video_overlay, md_marquee, md_favorite, no_favorite, md_rating, md_releasedate, md_genre">
             <zIndex>0</zIndex>
         </video>
+
+        <gamecarousel name="gamecarousel">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <imageSource>marquee</imageSource>
+        </gamecarousel>
 
         <!-- Video Game Preview -->
         <image name="md_image">
